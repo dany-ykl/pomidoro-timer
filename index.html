@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <link href='style.css' rel='stylesheet'>
+        <title>Pomidoro</title>
+    </head>
+    <body>
+             <div class='main-container'>
+            <div class='main-screen'>
+                <a href='#' id='arrow' class='arrow'><img src='img/left-arrow.png'></a>
+                <div class='tomato-img'>
+                    <ul>
+                        <li><img id ='img-1' class='img' src='img/tomato-0.png'></li>
+                        <li><img id ='img-2' class='img' src='img/tomato-0.png'></li>
+                        <li><img id ='img-3' class='img' src='img/tomato-0.png'></li>
+                        <li><img id ='img-4' class='img' src='img/tomato-0.png'></li>
+                    </ul>
+                </div>
+                <div class='time' id='timeMinute'>
+                    <span id='minute'>00:00</span>
+                </div>
+                <div class='now'>
+                    <span id='now'>-</span>
+                </div>
+                
+                <div class='button-start'>
+                <a href='#' id='start' class='start'>старт</a>
+                </div>
+            </div>
+
+            <div class='info-screen'>
+                <form>
+                    <ul class='info'>
+                        <li class='info-item-2'>Д-ть<img class='info-img' src='img/tomato.png'>
+                            <a href='#'><img class='setting-minus' src='img/minus.png'  id='minus-duration'></a>
+                            <input id='info-duration' type='text' value = 0></input>
+                            <a href='#'><img class='setting-plus' src='img/plus.png' id='plus-duration'></a>
+                        </li>
+                    
+                        <li class='info-item-3'>Д-ть<img class='info-img' src='img/pause.png'>
+                            <a href='#'><img class='setting-minus' src='img/minus.png' id='minus-pause'></a>
+                            <input id='info-pause' type='text' value = 0></input>
+                            <a href='#'><img class='setting-plus' src='img/plus.png' id='plus-pause'></a>
+                        </li>
+
+                        <li class='info-item-4'>Д-ть<img class='info-img' src='img/sleep.png'>
+                            <a href='#'><img class='setting-minus' src='img/minus.png' id='minus-break'></a>
+                            <input id='info-break' type='text' value = 0></input>
+                            <a href='#'><img class='setting-plus' src='img/plus.png' id='plus-break'></a>
+                        </li>        
+                        </ul>
+                </from>
+            </div>
+            <div class='button-audio'>
+                <a href='#' ><img id='img-sound' src='img/sound-on.png'></a>
+            </div>
+            <div class='button-reload'>
+                <a href='#'><img src='img/reload.png'></a>
+            </div>
+        </div>
+        <script src='js/script.js'></script>
+    </body>
+</html>
