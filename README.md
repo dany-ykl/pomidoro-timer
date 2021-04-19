@@ -1,4 +1,1 @@
-# tomato
-# tomato
-# tomato
-# pomidoro
+#Tomato timer written by javascript
